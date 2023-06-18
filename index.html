@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <h1 class="logo"><span>H</span>IZBULLAH</h1> -->
+                <ul>
+                    <li><a href="#head"><i class="fa-solid fa-house" style="color:green;"></i></a></li>
+                    <li><a href="#about"><i class="fa-solid fa-address-card"></i></a></li>
+                    <li><a href="#services"><i class="fa fa-wrench" aria-hidden="true"></i></a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-address-book"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div id="head" class="h-content">
+        <img class="himg" src="profile.jpg" alt="">
+        <div class="header-text">
+            <p>Web Designer/Web Developer</p>
+            <h1>Hi, I'm <span>Hizbullah</span><br>Jahidi</h1>
+        </div>
+
+    </div>
+
+    <!-- ---------------About------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1><br><br><br>
+                    <p>Hii I am Hizbullah Jahidi a 23 year old web Developer Living in Bangalore, India.</p><br>
+                    <p>I am a fresher to the software development industry. I
+                        recently completed my bachelor’s degree in Computer Science from Guwahati University with first
+                        division. I have excellent knowledge of coding languages and great coding skills. Moreover, I am
+                        highly organized and can find the best way to solve a problem quickly.</p><br>
+                    <p>I love challenges, and I
+                        have taken many projects in different domains. I am confident I can help the team in solving
+                        complex problems and enhance their efficiency. Apart from coding, I am also a great team player
+                        and have experience in working with cross-functional teams.</p><br>
+
+                    <p>A budding enthusiastic Web Developer, Passionate about JavaScript development Offering
+                        experties in front-end development with experience of working with many more projects. Seeking
+                        to advance a growing tech career
+                        as a software Development Engineer in a compehtitve environment
+                    </p><br>
+                    <p>I am Proficient in REACT JS, JAVASCRIPT, HTM5, CSS3. I am familiar with Verson Control System Git
+                        and Github</p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span></li>
+                            <li><span>JAVASCRIPT</span></li>
+                            <li><span>BOOTSTRAP</span></li>
+                            <li><span>REACT JS</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>My Blog App</span></li>
+                            <li><span>Notes Taking App</span></li>
+                            <ul>
+                                <li><span>Music App</span> </li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor of Computer Application</span><br>Guwahati University 7.00 CGPA</li>
+                            <li><span>CLASS XII</span><br>Kharupetia HS School</li>
+                            <!-- <li><span>UI/UX</span><br>Designing Web?App interfaces</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- <div class="about-col-2">
+                    <img src="about.jpg" alt="" width="400" height="500">
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------------------------------------services--------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services </h1>
+            <div class="servisec-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designing</h2>
+                    <p>We are specialized in creating beautiful and smooth UI/UX designs that provide better user
+                        experience by incorporating effective collaboration, streamlined projects which strive for
+                        better results.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>The experience working with Appnovation has been fantastic. We always want to ensure we get
+                        plenty of value from any vendor that we work with, and in that regard Appnovation really excels.
+                        With our latest project, we received top-quality work, enjoyed working with a really responsive
+                        team, and when we threw curve balls or suggested unique functionality, they quickly went to work
+                        to make it a reality. </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Designing</h2>
+                    <p>Your mobile app should be most advanced and innovative so as to meet all your business
+                        requirements and appeal the target audience. That’s why, at Source Soft Solutions, we don’t just
+                        design apps, we design experiences. Our only goal is make your mobile app ‘delightful-to-use’.
+                        Our skilled and certified android app designers follow agile methodologies to create the
+                        intuitive design of app for amazing end customer experience.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------portfolio------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="blog.jpg" alt="" width="350" height="400" style="object-fit: cover;">
+                    <div class="layer">
+                        <h3>My Blog App</h3>
+                        <p>The main aim of this application is to provide a hassle-free accessing of the posted blogs,
+                            entries, topics etc. It also used for
+                            posting the blogs, editing the blogs, deleting the posted blogs etc. It is also used for
+                            viewing and posting the others ones
+                            blogs/posts.
+                            Using React.js
+                            Using core cascading style sheet
+                            Using React-router-dom for Routing</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Notes.jpg" alt="" width="350" height="400" style="object-fit: cover;">
+                    <div class="layer">
+                        <h3>Notes Taking App</h3>
+                        <p>The main aim of this application to provide the facility of converting the text into
+                            Uppercase, Lowercase, Copy The text, etc.
+                            Using Bootstrap for styling
+                            Using react.js</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="music.jpg" alt="" width="350" height="400" style="object-fit: cover;">
+                    <div class="layer">
+                        <h3>My Music App</h3>
+                        <p>This is app created by using html css javascript in this app you can play the songs change
+                            the songs </p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ----------------------------contact------------------------------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>hizbullahjahidi99@gmail.com</p>
+                    <p>8473074101</p>
+                    <div class="social-icons">
+                        <a href=""><i class="icons fa-brands fa-facebook"></i></a>
+                        <a target="_blank" href="https://twitter.com/JahidiHizbullah"><i
+                                class="icons fa-brands fa-twitter"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/hizbullah-jahidi-a89936227/"><i
+                                class="icons fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/Hizu99"><i
+                                class="icons fa-brands fa-github"></i></a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p>Created By Hizbullah Jahidi &#169; 2023 all rights reserved</p>
+    </footer>
+
+
+    <script>
+        const tablinks = document.getElementsByClassName("tab-links")
+        const tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcotent of tabcontents) {
+                tabcotent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFd6ov_uuDGSWusGuU3f-50shIR7paYnfZiocqZeFHBcowpZ3zh59ReKGTLVeCiUKotw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+</body>
+
+</html>
